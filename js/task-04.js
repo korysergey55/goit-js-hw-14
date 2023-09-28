@@ -9,7 +9,6 @@ incrementtRef.addEventListener('click', () => {
   valueRef.textContent = counterValue
 })
 decrementRef.addEventListener('click', () => {
-  if (counterValue <= 0) return
   counterValue -= 1
   valueRef.textContent = counterValue
 })
